@@ -1,0 +1,12 @@
+#local .terraform dir 
+.terraform/*
+
+#tf state files
+*.tfstate
+*.tfstate.*
+
+#authentication files 
+authKey.json
+
+#tfvars file may include some sensitive data
+*.tfvars
